@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.31)  5 APR 2022 15:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.31)  11 APR 2022 11:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -626,13 +626,22 @@ LaTeX Font Info:    ... okay on input line 87.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
+LaTeX    Checking defaults for T1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
-
 -- Lines per column: 50 (exact).
 LaTeX Info: Redefining \celsius on input line 87.
 Package gensymb Info: Faking symbols for \degree and \celsius on input line 87.
+
 
 Package gensymb Warning: Not defining \perthousand.
 
@@ -641,81 +650,115 @@ Package gensymb Info: Using \Omega for \ohm on input line 87.
 
 Package gensymb Warning: Not defining \micro.
 
-(D:\probability\miktek\tex/context/base/mkii\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count333
-\scratchdimen=\dimen302
-\scratchbox=\box77
-\nofMPsegments=\count334
-\nofMParguments=\count335
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count336
-\MPscratchDim=\dimen303
-\MPnumerator=\count337
-\makeMPintoPDFobject=\count338
-\everyMPtoPDFconversion=\toks47
-) (D:\probability\miktek\tex/latex/epstopdf-pkg\epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (D:\probability\miktek\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
 Package hyperref Info: Link coloring OFF on input line 87.
- (D:\probability\miktek\tex/latex/hyperref\nameref.sty
+(D:\probability\miktek\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
- (D:\probability\miktek\tex/latex/refcount\refcount.sty
+
+(D:\probability\miktek\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (D:\probability\miktek\tex/generic/gettitlestring\gettitlestring.sty
+)
+(D:\probability\miktek\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count339
+\c@section@level=\count338
 )
 LaTeX Info: Redefining \ref on input line 87.
 LaTeX Info: Redefining \pageref on input line 87.
 LaTeX Info: Redefining \nameref on input line 87.
- (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-\c@lstlisting=\count340
-\c@theorem=\count341
-\c@problem=\count342
-\c@proposition=\count343
-\c@lemma=\count344
-\c@example=\count345
-\c@rem=\count346
-LaTeX Font Info:    Trying to load font information for U+msa on input line 163.
- (D:\probability\miktek\tex/latex/amsfonts\umsa.fd
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+\c@lstlisting=\count339
+\c@theorem=\count340
+\c@problem=\count341
+\c@proposition=\count342
+\c@lemma=\count343
+\c@example=\count344
+\c@rem=\count345
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 162.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 162
+.
+(D:\probability\miktek\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 163.
- (D:\probability\miktek\tex/latex/amsfonts\umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 162
+.
+
+(D:\probability\miktek\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 162--164
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \left 
+l.162 \textbf
+             {Q1 (v)}
+? 
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \left 
+l.162 \textbf
+             {Q1 (v)}
+? 
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \left 
+l.162 \textbf
+             {Q1 (v)}
+? 
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \left 
+l.162 \textbf
+             {Q1 (v)}
+? 
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \left 
+l.162 \textbf
+             {Q1 (v)}
+? 
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \left 
+l.162 \textbf
+             {Q1 (v)}
+? 
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \left 
+l.162 \textbf
+             {Q1 (v)}
+? 
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \left 
+l.162 \textbf
+             {Q1 (v)}
+? 
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \left 
+l.162 \textbf
+             {Q1 (v)}
+? 
+! Emergency stop.
+<to be read again> 
+                   \left 
+l.162 \textbf
+             {Q1 (v)}
+End of file on the terminal!
 
- []
-
-[1{C:/Users/gunji/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
-
-
-
-] (main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 23919 strings out of 478582
- 435763 string characters out of 2855131
- 715944 words of memory out of 3000000
- 41690 multiletter control sequences out of 15000+600000
- 501055 words of font info for 96 fonts, out of 8000000 for 9000
+ 23506 strings out of 478583
+ 429848 string characters out of 2855157
+ 721604 words of memory out of 3000000
+ 41326 multiletter control sequences out of 15000+600000
+ 493806 words of font info for 85 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 100i,9n,104p,445b,326s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{D:/probability/miktek/fonts/enc/dvips/base/8r.enc}<D:/probability/miktek/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/probability/miktek/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/probability/miktek/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/probability/miktek/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/probability/miktek/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/probability/miktek/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/probability/miktek/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/probability/miktek/fonts/type1/public/amsfonts/symbols/msam10.pfb><D:/probability/miktek/fonts/type1/urw/times/utmb8a.pfb><D:/probability/miktek/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (1 page, 101542 bytes).
-PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 100i,12n,104p,425b,269s stack positions out of 10000i,1000n,20000p,200000b,80000s
+No pages of output.

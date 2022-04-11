@@ -160,7 +160,7 @@ columns=fullflexible
 \author{Gunjit Mittal (AI21BTECH11011)}
 \maketitle
 \textbf{Q1 (v)}
-Evaluate:  $ \int \frac{1}{x^2}{\sin ^2(\frac{1}{x})} dx$ \\
+Evaluate:  \begin{align} \int \frac{1}{x^2}{\sin ^2\brak{\frac{1}{x}}} dx \nonumber \end{align}
 
 \textbf{Solution}
 Let 
@@ -169,38 +169,48 @@ Let
     \frac{1}{x} = t
 \end{align}
 \begin{align}
+    \implies
      -\frac{1}{x^2} dx = dt
+     \nonumber
 \end{align}
 \begin{align}
+    \implies
     \label{eq:eq2}
     \frac{1}{x^2} dx = - dt
 \end{align}
-From \eqref{eq:eq1} and \eqref{eq:eq2}
+From~\eqref{eq:eq1} and~\eqref{eq:eq2}
 \begin{align} 
-    \int \frac{1}{x^2}{\sin ^2(\frac{1}{x})} dx  
-        =
-        - \int \sin ^2(t) dt
-\end{align}
-\begin{align}
-    \cos(2t) = 1 - 2\sin^2(t)
-\end{align}
-\begin{align}
     \label{eq:eq3}
-    \sin^2(t) = \frac{1-\cos(2t)}{2}
-\end{align}
-From \eqref{eq:eq3}
-\begin{align}
-    - \int \sin ^2(t) dt = -\frac{1}{2}\int 1-\cos(2t) dt
+    \int \frac{1}{x^2}{\sin ^2\brak{\frac{1}{x}}} dx  
+        =
+        - \int \sin ^2\brak{t} dt
 \end{align}
 \begin{align}
+    \cos\brak{2t} = 1 - 2\sin^2\brak{t}
+    \nonumber
+\end{align}
+\begin{align}
+    \implies
     \label{eq:eq4}
-    \int 1 - \cos(2t)dt = t - \frac{\sin(2t)}{2} + C
+    \sin^2\brak{t} = \frac{1-\cos\brak{2t}}{2}
 \end{align}
-from \eqref{eq:eq4}
+From~\eqref{eq:eq4}
 \begin{align}
-    -\frac{1}{2}\int 1-\cos(2t) dt = \frac{\sin(2t)}{4} - \frac{t}{2} + C
+    \label{eq:eq5}
+    - \int \sin ^2\brak{t} dt = -\frac{1}{2}\int 1-\cos\brak{2t} dt
 \end{align}
 \begin{align}
-   \therefore \int \frac{1}{x^2}{\sin ^2(\frac{1}{x})} dx = \frac{\sin(2t)}{4} - \frac{t}{2} + C
+    \int 1 - \cos\brak{2t}dt = t - \frac{\sin\brak{2t}}{2} + C
+    \nonumber
+\end{align}
+\begin{align}
+    \implies
+    \label{eq:eq6}
+    -\frac{1}{2}\int 1-\cos\brak{2t} dt = \frac{\sin\brak{2t}}{4} - \frac{t}{2} + C
+\end{align}
+from~\eqref{eq:eq3},\eqref{eq:eq5} and~\eqref{eq:eq6}
+\begin{align}
+   \int \frac{1}{x^2}{\sin ^2\brak{\frac{1}{x}}} dx = \frac{\sin\brak{2t}}{4} - \frac{t}{2} + C
+   \nonumber
 \end{align}
 \end{document}
