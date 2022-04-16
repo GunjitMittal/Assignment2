@@ -159,58 +159,49 @@ columns=fullflexible
 \title{Assignment 2 ICSE class 12 2017}
 \author{Gunjit Mittal (AI21BTECH11011)}
 \maketitle
-\textbf{Q1 (v)}
+Download all python codes from 
+\begin{lstlisting}
+https://github.com/GunjitMittal/Assignment2/tree/main/Assignment2/codes
+\end{lstlisting}
+Download all latex codes from 
+\begin{lstlisting}
+https://github.com/GunjitMittal/Assignment2/tree/main/Assignment2
+\end{lstlisting}
+\section{Question}
 Evaluate:  \begin{align} \int \frac{1}{x^2}{\sin ^2\brak{\frac{1}{x}}} dx \nonumber \end{align}
-
-\textbf{Solution}
+\section{Solution}
 Let 
 \begin{align}
     \label{eq:eq1}
-    \frac{1}{x} = t
-\end{align}
-\begin{align}
-    \implies
-     -\frac{1}{x^2} dx = dt
-     \nonumber
-\end{align}
-\begin{align}
-    \implies
+   & \frac{1}{x} = t\\
+   & \implies
+     -\frac{1}{x^2} dx = dt\\
+   & \implies
     \label{eq:eq2}
     \frac{1}{x^2} dx = - dt
 \end{align}
 From~\eqref{eq:eq1} and~\eqref{eq:eq2}
 \begin{align} 
     \label{eq:eq3}
-    \int \frac{1}{x^2}{\sin ^2\brak{\frac{1}{x}}} dx  
+    &\int \frac{1}{x^2}{\sin ^2\brak{\frac{1}{x}}} dx  
         =
-        - \int \sin ^2\brak{t} dt
-\end{align}
-\begin{align}
-    \cos\brak{2t} = 1 - 2\sin^2\brak{t}
-    \nonumber
-\end{align}
-\begin{align}
-    \implies
+        - \int \sin ^2\brak{t} dt\\
+   & \cos\brak{2t} = 1 - 2\sin^2\brak{t}\\
+    &\implies
     \label{eq:eq4}
     \sin^2\brak{t} = \frac{1-\cos\brak{2t}}{2}
 \end{align}
 From~\eqref{eq:eq4}
 \begin{align}
     \label{eq:eq5}
-    - \int \sin ^2\brak{t} dt = -\frac{1}{2}\int 1-\cos\brak{2t} dt
-\end{align}
-\begin{align}
-    \int 1 - \cos\brak{2t}dt = t - \frac{\sin\brak{2t}}{2} + C
-    \nonumber
-\end{align}
-\begin{align}
-    \implies
+    &- \int \sin ^2\brak{t} dt = -\frac{1}{2}\int 1-\cos\brak{2t} dt\\
+    &\int 1 - \cos\brak{2t}dt = t - \frac{\sin\brak{2t}}{2} + C\\
+    &\implies
     \label{eq:eq6}
     -\frac{1}{2}\int 1-\cos\brak{2t} dt = \frac{\sin\brak{2t}}{4} - \frac{t}{2} + C
 \end{align}
 from~\eqref{eq:eq3},\eqref{eq:eq5} and~\eqref{eq:eq6}
 \begin{align}
-   \int \frac{1}{x^2}{\sin ^2\brak{\frac{1}{x}}} dx = \frac{\sin\brak{2t}}{4} - \frac{t}{2} + C
-   \nonumber
+  & \int \frac{1}{x^2}{\sin ^2\brak{\frac{1}{x}}} dx = \frac{\sin\brak{2t}}{4} - \frac{t}{2} + C
 \end{align}
 \end{document}
